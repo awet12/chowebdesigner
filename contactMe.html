@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable And Professional Web Design">
+    <meta name="keyword" content="Web Design,Professional Web Design">
+    <meta name="author" content="Awet Haftay">
+    <title>Cho Web Design | Contact me</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script>
+    function valid()
+     {
+      var c=document.forms["contact"]["email"].value;
+      if(c==null || c=="")
+      {
+        alert("pls. Enter your Email");
+        return false;
+      }
+      var atpos=c.indexOf("@");
+      var dotpos=c.lastIndexOf(".");
+      if (atpos<1 || dotpos<atpos+2 || dotpos+2>=c.length)
+      {
+        alert("not a valid e-mail address")
+        return false;
+      }
+    }
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Cho</span> Web Design</h1>
+        </div>
+         <nav>
+           <u1>
+             <li><a href="index.html"><img src="img\a1.png"width="18px" height="18px"> Home</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="services.html">Services</a></li>
+             <li class="current"><a href="contactMe.html">Contact Me</a></li>
+             <li><a href="external.html"><img src="img\yy.png"width="17px" height="17px"> External</a></li>
+           </u1>
+         </nav>
+      </div>
+    </header>
+
+    <section id="showcontactme">
+
+
+    </section>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Send your Email to get NewsLetter</h1>
+        <form action="letter.php" method="POST">
+          <input type="email" placeholder="Enter Email..." name="email" required>
+
+         <button type="submit" class="botton_1">Send Email</button>
+
+        </form>
+      </div>
+    </section>
+
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h2 class="page-title">Contact Me :</h2>
+          <h3 class="page-title"><img src="img\location.png"width="50px" height="50px">
+           Location : Tigray , Mekelle City</h3>
+          <h3>
+          Ethiopia , Tigray , Mekelle City
+          </h3>
+
+          <h3>
+            <img src="img\phone.jpg"width="32px" height="32px">
+            Phone Number : 09-37-03-10-85 or 09-33-05-11-20
+          </h3>
+
+          <h3>
+            Ethiopia , Tigray , Mekelle City
+          </h3>
+        <article>
+        </div>
+      </section>
+
+
+
+      <section id="main">
+        <div class="container">
+          <article id="main-col">
+            <h2 class="page-title">Why We're Different :</h2>
+            <h3>
+          <li>  Understand our client's business goal first</li>
+            </h3>
+
+            <h3>
+              <li> We deliver on time</li>
+            </h3>
+
+
+            <h3>
+              <li> Believe in doing business with honestly </li>
+            </h3>
+
+            <h3>
+              <li>  We protect your online reputation</li>
+            </h3>
+
+            <h3>
+              <li>  We create a winning content strategy</li>
+            </h3>
+          <article>
+          </div>
+        </section>
+
+        <section id="main">
+          <div class="container">
+            <article id="main-col">
+        <aside id="sidebar">
+          <div class="dark">
+           <h3>* Contact Me *</h3>
+
+            <form class="quote" action="contact.php" method="POST" onsubmit="return valid()" name="contact">
+              <div>
+                <label>Name</label><br>
+                <input type="text" placeholder="Name" name="fname" required>
+              </div>
+              <div>
+                <lebel>Email</lebel><br>
+                <input type="email" placeholder="Email Address" name="email" required>
+                </div>
+                  <div>
+                    <label>Message</label><br>
+                    <textarea placeholder="Message" name="message" required></textarea>
+                  </div>
+              <button class="botton_1" type="Submit">Send</button>
+            </form>
+          </div>
+        </aside>
+    </section>
+
+     <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h3 class="page-title">. . OR . .</h3>
+          <u1 id="contact Me">
+              <h4>You can contact me by Social Medias</h4>
+              <h4>
+              On <img src="img\facebook.png"width="32px" height="32px"><a href="https:m.facebook.com/home.php?ref_component=mbasic_home_hesder&ref_page=MStoriesController&refid=28&ref=opera_speed_dial">Facebook</a>
+              </h4>
+
+              <h4>
+              On <img src="img\instagram.jpg"width="35px" height="35px"><a href="https://www.instagram.com/">Instagram</a>
+              </h4>
+              <h4>
+              On <img src="img\skype.jpg"width="32px" height="32px"><a href="https://secure.skype.com/portal/overview">Skype</a>
+              </h4>
+          </u1>
+        </article>
+        </div>
+      </article>
+
+      <section id="newsletter">
+        <div class="container">
+          <h1>Send your Email to get NewsLetter</h1>
+          <form action="letter.php" method="POST">
+            <input type="email" placeholder="Enter Email..." name="email" required>
+
+           <button type="submit" class="botton_1">Send Email</button>
+
+          </form>
+        </div>
+      </section>
+
+      <section id="showcontactmeunder">
+
+      </section>
+
+      <body>
+        <header>
+          <nav>
+            <u1>
+              <li><a href="index.html"><img src="img\a1.png"width="18px" height="18px"> Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contactMe.html">Contact Me</a></li>
+              <li class="current"><a href="external.html"><img src="img\yy.png"width="17px" height="17px"> External</a></li>
+            </u1>
+          </nav>
+        </header>
+      </body>
+
+    <footer>
+      <h5>Cho Web Design, copyright &copy; 2020</h5>
+    </footer>
+
+  </body>
+</html>
